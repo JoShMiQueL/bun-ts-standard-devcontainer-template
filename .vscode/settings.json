@@ -1,0 +1,9 @@
+{
+  "standard.enable": true,
+  "standard.run": "onType",
+  "standard.autoFixOnSave": true,
+  "standard.engine": "ts-standard",
+  "standard.treatErrorsAsWarnings": true,
+
+  "editor.defaultFormatter": "numso.prettier-standard-vscode",
+}

@@ -1,0 +1,16 @@
+{
+  "name": "bun-ts-standard-devcontainer-template",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "lint-fix": "ts-standard --fix"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "ts-standard": "^12.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
